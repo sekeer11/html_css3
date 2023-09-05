@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primer proyecto con HTML</title>
+    <style>
+        table, th, tr, td {
+            border: 1px solid;
+        }
+    </style>
 </head>
 <body>
     <h1>Mi primera pagina web</h1>
@@ -12,6 +17,27 @@
         <li><a href="content.html">Contenido</a></li>
         <li><a href="contact.html">Contacto</a></li>
     </ul>
-
+    <h3>Contenido de la pagina</h3>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Animales</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gato</td>
+                <td>Perro</td>
+                <td>Tigre</td>
+                <td>Leon</td>
+            </tr>
+            <tr>
+                <td><img src="img/gato.jpg" alt="" width="350" height="220"></td>
+                <td><img src="img/perro.jpg" alt="" width="350" height="220"></td>
+                <td><img src="img/tigre.jpg" alt="" width="350" height="220"></td>
+                <td><img src="img/leon.jpg" alt="" width="350" height="220"></td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
