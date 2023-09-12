@@ -1,0 +1,45 @@
+/*FUENTES PERSONALIZADAS*/
+@font-face {
+    font-family: MontserratCustomFont;
+    src: url(fonts/static/Montserrat-Regular.ttf);
+}
+
+body {
+    background: beige;
+}
+
+.container {
+    padding: 25px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+    /*Colores*/
+    /*Colores del sistema*/
+    color: mediumpurple;
+    /*Colores del hexadecimales*/
+    color: #26918b;
+    /*Colores del RGB*/
+    color: RGB(154,219,103);
+    /*Colores del RGBA*/
+    color: rgba(107, 106, 195, 0.6);
+}
+
+h3 {
+    font-family: MontserratCustomFont ,"Comic Sans MS";
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fuente_importada {
+    font-family: 'Mansalva', cursive;
+    text-transform: uppercase;
+}
